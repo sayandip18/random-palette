@@ -1,7 +1,13 @@
+import Palette from "./components/Palette/Palette";
+import './App.css';
 
 function App() {
   return (
-   <div></div>
+   <div>
+     <div className="App">
+      <Palette />
+    </div>
+   </div>
   );
 }
 
